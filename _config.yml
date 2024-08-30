@@ -153,7 +153,7 @@ social-links:
     
   - name: twitch
     url-pattern: www.twitch.com/__USERNAME__
-    icon-class: fa fa-twitch
+    icon-class: fab fa-2x fa-twitch
 
   - name: email
     url-scheme: 'mailto:'
