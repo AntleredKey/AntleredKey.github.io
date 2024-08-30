@@ -2,8 +2,8 @@
 remote_theme: epidrome/cover-card@main
 
 # Title and tag line
-title: 'My name'
-description: 'I am amazing.'
+title: 'AntleredKey'
+description: 'Artist, Tech, and Game Enthusiast'
 
 # Images
 avatar: 'avatar.jpg'
@@ -12,13 +12,13 @@ favicon: 'favicon.ico'
 
 # Online profiles
 #dribbble: 'mydribbble'
-facebook: 'myfacebook'
-twitter: 'mytwitter'
+#facebook: 'myfacebook'
+twitter: 'AntleredKey'
 #linkedin: 'mylinkedin'
-instagram: 'myinsta'
+instagram: 'AntleredKey'
 #pinterest: 'mypinterest'
-youtube: 'myyoutube'
-github-user: 'mygithub'
+#youtube: 'myyoutube'
+#github-user: 'mygithub'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
@@ -28,12 +28,12 @@ github-user: 'mygithub'
 #reddit: ''
 #rubygems: ''
 #medium:  ''
-tumblr: 'mytumblr'
-weibo: 'myweibo'
-vk: 'myvk'
-blog_url: 'myblog.blog.com'
-email: 'hello@example.com'
-messenger: 'myfbchat'
+#tumblr: 'mytumblr'
+#weibo: 'myweibo'
+#vk: 'myvk'
+#blog_url: 'myblog.blog.com'
+#email: 'hello@example.com'
+#messenger: 'myfbchat'
 
 social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
 
@@ -149,6 +149,10 @@ social-links:
   - name: blog_url
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-blog
+    
+  - name: twitch
+    url-pattern: www.twitch.com/__USERNAME__
+    icon-class: fa fa-twitch
 
   - name: email
     url-scheme: 'mailto:'
